@@ -205,12 +205,9 @@ async function sendToApi(action, data, btnElement) {
         
         const result = await response.json();
         
-        // DEBUG TEMPORAL: Mostrar la respuesta cruda del servidor
-        alert("DEBUG - Respuesta del servidor: " + JSON.stringify(result));
-        
         if (action === 'nuevo_pedido') {
             if (result.checkout_url) {
-                window.location.href = result.checkout_url;
+                window.location.assign(result.checkout_url);
                 return true;
             } else {
                 alert("Hubo un error de Mercado Pago. Detalle técnico: " + (result.mp_error || "Desconocido"));
