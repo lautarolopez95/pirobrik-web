@@ -238,7 +238,8 @@ document.getElementById('checkoutForm').addEventListener('submit', async (e) => 
         telefono: document.getElementById('chk_telefono').value,
         direccion: document.getElementById('chk_direccion').value,
         items: cart,
-        montoTotal: total
+        montoTotal: total,
+        notification_url: SITE_CONFIG.api.googleSheetsEndpoint
     };
 
     const btn = document.getElementById('btn-confirm-order');
