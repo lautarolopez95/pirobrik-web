@@ -34,7 +34,7 @@ const SITE_CONFIG = {
   // --- ENDPOINTS Y PASARELAS ---
   api: {
     // REEMPLAZAR ESTA URL CON LA QUE TE DIO GOOGLE APPS SCRIPT AL PUBLICAR:
-    googleSheetsEndpoint: "https://script.google.com/macros/s/AKfycbxxPahWfHugr4nhOX7xvcXSPRtqIUPcFSX_-Oool1RdB27FHJ4Lr38VlNXhi12bIUle/exec",
+    googleSheetsEndpoint: "https://script.google.com/macros/s/AKfycbyFIILBbbBu3kwzdAdX6xxJ1MLLSxkWN_UvJahRsk4VoyQ91nFE59obaIrKmQw7TGJJ/exec",
     mercadoPagoPublicKey: "APP_USR-4a0d8c7a-9b93-416b-a8e6-f1a697c2fcc8"
   }
 };
