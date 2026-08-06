@@ -42,7 +42,7 @@ async function fetchProducts() {
         return;
     }
 
-    container.innerHTML = '<p style="text-align:center; width:100%;">Cargando catálogo desde Google Sheets...</p>';
+    container.innerHTML = '<p style="text-align:center; width:100%;">Cargando productos...</p>';
 
     try {
         // Hacemos una petición GET a la API
